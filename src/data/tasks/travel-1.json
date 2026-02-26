@@ -1,0 +1,16 @@
+{
+  "id": "travel-1",
+  "scenario": "travel",
+  "title": "点餐",
+  "description": "在餐厅点餐",
+  "level": "A1",
+  "goal": "成功点完一顿饭",
+  "role": "waiter",
+  "targetSentences": [
+    "我想点一个宫保鸡丁",
+    "再要一碗米饭",
+    "多少钱？"
+  ],
+  "vocabulary": ["宫保鸡丁", "米饭", "面条", "炒饭", "服务员", "菜单"],
+  "successCriteria": ["菜品", "数量", "价格确认"]
+}

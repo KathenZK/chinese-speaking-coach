@@ -1,0 +1,98 @@
+[
+  {
+    "id": "travel-1",
+    "scenario": "travel",
+    "title": "点餐",
+    "description": "在餐厅点餐",
+    "level": "A1",
+    "goal": "成功点完一顿饭",
+    "role": "waiter",
+    "targetSentences": ["我想点一个宫保鸡丁", "再要一碗米饭", "多少钱？"],
+    "vocabulary": ["宫保鸡丁", "米饭", "面条", "炒饭", "服务员", "菜单"],
+    "successCriteria": ["菜品", "数量", "价格确认"]
+  },
+  {
+    "id": "travel-2",
+    "scenario": "travel",
+    "title": "打车",
+    "description": "用滴滴打车",
+    "level": "A1",
+    "goal": "成功叫到车并告诉司机目的地",
+    "role": "driver",
+    "targetSentences": ["请送我去机场", "多少钱？", "谢谢"],
+    "vocabulary": ["机场", "火车站", "酒店", "目的地", "计价器"],
+    "successCriteria": ["目的地", "价格确认"]
+  },
+  {
+    "id": "travel-3",
+    "scenario": "travel",
+    "title": "酒店入住",
+    "description": "酒店登记入住",
+    "level": "A1",
+    "goal": "成功办理入住",
+    "role": "receptionist",
+    "targetSentences": ["我预订了一间房多少钱一天？", "这是我的护照"],
+    "vocabulary": ["预订", "入住", "退房", "护照", "身份证",", "请问 "钥匙"],
+    "successCriteria": ["预订确认", "付款", "拿钥匙"]
+  },
+  {
+    "id": "travel-4",
+    "scenario": "travel",
+    "title": "问路",
+    "description": "向路人问level": "A路",
+    "1",
+    "goal": "找到目的地",
+    "role": "passerby",
+    "targetSentences": ["请问，去地铁站怎么走？", "远吗？", "谢谢"],
+    "vocabulary": ["地铁站", "公交站", "左转", "右转", "直走", "路口"],
+    "successCriteria": ["方向", "距离"]
+  },
+  {
+    "id": "travel-5",
+    "scenario": "travel",
+    "title": "买地铁票",
+    "description": "在地铁站买票",
+    "level": "A1",
+    "goal": "买到地铁票",
+    "role": "ticketStaff",
+    "targetSentences": ["请问，去天安门怎么买票？", "多少钱？", "我要一张"],
+    "vocabulary": ["地铁票", "充值", "一卡通", "终点站", "票价"],
+    "successCriteria": ["目的地", "票种", "价格"]
+  },
+  {
+    "id": "business-1",
+    "scenario": "business",
+    "title": "自我介绍",
+    "description": "在会议中自我介绍",
+    "level": "A2",
+    "goal": "让同事认识你",
+    "role": "colleague",
+    "targetSentences": ["大家好，我叫XXX", "我来自美国", "很高兴认识大家"],
+    "vocabulary": ["介绍", "名字", "国家", "城市", "同事", "部门"],
+    "successCriteria": ["基本信息", "国家", "部门"]
+  },
+  {
+    "id": "business-2",
+    "scenario": "business",
+    "title": "约会议",
+    "description": "和同事约会议时间",
+    "level": "A2",
+    "goal": "确定会议时间",
+    "role": "colleague",
+    "targetSentences": ["明天下午有空吗？", "我们聊聊项目进度", "三点可以吗？"],
+    "vocabulary": ["会议", "时间", "明天", "下午", "办公室", "线上"],
+    "successCriteria": ["时间", "地点", "主题"]
+  },
+  {
+    "id": "business-3",
+    "scenario": "business",
+    "title": "确认需求",
+    "description": "和客户确认项目需求",
+    "level": "B1",
+    "goal": "明确需求范围",
+    "role": "client",
+    "targetSentences": ["我想做一个网站", "预算大约多少？", "什么时候能完成？"],
+    "vocabulary": ["需求", "预算", "工期", "功能", "设计", "开发"],
+    "successCriteria": ["需求明确", "预算范围", "时间表"]
+  }
+]
