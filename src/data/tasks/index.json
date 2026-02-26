@@ -32,15 +32,15 @@
     "goal": "成功办理入住",
     "role": "receptionist",
     "targetSentences": ["我预订了一间房多少钱一天？", "这是我的护照"],
-    "vocabulary": ["预订", "入住", "退房", "护照", "身份证",", "请问 "钥匙"],
+    "vocabulary": ["预订", "入住", "退房", "护照", "身份证", "钥匙"],
     "successCriteria": ["预订确认", "付款", "拿钥匙"]
   },
   {
     "id": "travel-4",
     "scenario": "travel",
     "title": "问路",
-    "description": "向路人问level": "A路",
-    "1",
+    "description": "向路人问路",
+    "level": "A1",
     "goal": "找到目的地",
     "role": "passerby",
     "targetSentences": ["请问，去地铁站怎么走？", "远吗？", "谢谢"],
